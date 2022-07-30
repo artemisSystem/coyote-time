@@ -1,9 +1,13 @@
-# Fabric Example Mod
+# Coyote Time
 
-## Setup
+This mod is a Fabric port of the port exclusive feature of the Forge port of the Fabric mod "Second Chance" (Original fabric mod: https://www.curseforge.com/minecraft/mc-mods/second-chance) (Forge port: https://modrinth.com/mod/second-chance-forge)
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Features:
 
-## License
+- You can jump once within 10 ticks after walking/running off a block
+- Removes the jump cooldown
+- You can jump while standing in water (this was apparently a bug that was fixed in the original version, but i liked it so i brought it back)
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+No configs for now, sorry.
+
+The main branch is called `1.18` currently, but the jar works on 1.19 too.

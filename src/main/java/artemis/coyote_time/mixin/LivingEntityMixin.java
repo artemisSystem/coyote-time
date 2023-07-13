@@ -30,7 +30,7 @@ public abstract class LivingEntityMixin extends Entity {
 
 	@Inject(method = "aiStep", at = @At(value = "HEAD"))
 	private void coyote_time_countTicksFalling(CallbackInfo ci) {
-		if (!this.onGround) {
+		if (!this.onGround()) {
 			ticksFalling++;
 		} else {
 			ticksFalling = 0;
